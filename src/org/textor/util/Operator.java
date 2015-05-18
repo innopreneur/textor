@@ -85,7 +85,7 @@ public class Operator {
                         
                         if(position.equalsIgnoreCase("by")){
                             
-                            done=this.replaceText(path, newText, oldText);
+                            done=this.replaceText(path, oldText, newText);
                         }
                         else if(position.equalsIgnoreCase("at")){
                             
